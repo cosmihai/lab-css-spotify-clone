@@ -4,51 +4,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/home/mihai/Desktop/ironhack/lab-css-spotify-clone/starter-code/css/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <title>Spotify</title>
 </head>
 
 <body>
-  <div class="navbar">
-    <img src="images/spotify-logo.png" alt="spotify-logo">
+  <header class="navbar">
+    <div>
+      <img src="images/spotify-logo.png" alt="spotify-logo">
+    </div>
     <a href="#">Premium</a>
     <a href="#">Discover</a>
     <a href="#">Help</a>
     <a href="#">Download</a>
-  </div>
+  </header>
   
   <section class="music">
     <div>
       <h1>Music for everyone.</h1>
-      <h3>Spotify is now free on mobile, tablet and computer. <br>Listen to the right music, wherever you are.</h3>
+      <p>Spotify is now free on mobile, tablet and computer. <br>Listen to the right music, wherever you are.</p>
     </div>
   </section>
+
   <section class="info">
     <h2>What's on Spotify?</h2>
     <hr>
     <div class="container">
-      <article class="col col-3">
-        <img src="images/music-icon.png" alt="music icon">
+      <article class="col">
+        <div class="music-icon">
+          <img src="images/music-icon.png" alt="music icon">
+        </div>
         <h3>Milions of songs</h3>
         <p>There are millions of songs on Spotify</p>    
       </article>
     
-      <article class="col col-3">
-        <h3></h3>
-        <p></p>
-    
+      <article class="col">
+        <div class="music-icon">
+          <img src="images/high-quality-icon.png" alt="music icon">
+        </div>
+        <h3>HD Music </h3>
+        <p>Listen to music as if you were listening live</p>    
       </article>
     
-      <article class="col col-3">
-        <h3></h3>
-        <p></p> 
-        
-      </article>
-     
-        
+      <article class="col"> 
+        <div class="music-icon">
+          <img src="images/devices-icon.png" alt="music icon">
+        </div>
+        <h3>Stream Everywhere</h3>
+        <p>Stream music on your smartphone, tablet or computer</p>         
+      </article>        
     </div>
   </section>
-  <section></section>
+  <section class="last-section">
+    <div id="spotify-app-img">
+      <img src="images/spotify-app.jpg" alt="spotify-app">
+    </div>
+    <div id="section-content">
+      <h2>It’s as yeezy as Kanye West. </h2>
+      <hr align="left">
+      <div class="vertical-align">
+        <div class="container-text">
+          <h3>Search </h3>
+          <p>Know what you want to listen to? Just search and hit play.</p>
+          <h3>Browse</h3>
+          <p>Check out the latest charts, brand new releases and great playlists for right now.</p>
+          <h3>Discover</h3>
+          <p>Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio.</p>
+        </div>
+        <div id="spotify-icon">
+          <img src="images/spotify-icon-white.png" alt="lol">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
   
   
 </body>
